@@ -1,0 +1,25 @@
+{
+  "name": "listen-client-ip",
+  "version": "1.0.0",
+  "description": "A lightweight Bun-based API that returns the IP address of incoming requests.",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run main.ts",
+    "dev": "bun run --watch main.ts",
+    "build": "bun build ./main.ts --outdir ./dist"
+  },
+  "keywords": [
+    "bun",
+    "api",
+    "ip-address",
+    "typescript"
+  ],
+  "author": "teexiii",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bun": "^1.1.29",
+    "bun-types": "latest"
+  }
+}
