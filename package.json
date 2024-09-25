@@ -5,7 +5,7 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run main.ts",
+    "start": "bun run ./dist/main.js",
     "dev": "bun run --watch main.ts",
     "build": "bun build ./main.ts --outdir ./dist"
   },
